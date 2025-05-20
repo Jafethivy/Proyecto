@@ -4,17 +4,21 @@
         self._password = password
 
     def login(self,db,widget):
-        db.dbcursor.execute("""SELECT usr.name, usr.surname, rol.rol 
+        try:
+            db.dbcursor.execute("""SELECT usr.name, usr.surname, rol.rol 
                             FROM Users.usr AS usr
                             INNER JOIN Users.rol AS rol 
                             ON usr.id_emp = rol.id_emp
                             WHERE rol.id_emp = %s AND rol.password = %s""", (self._id_emp, self._password))
 
-        result = db.dbcursor.fetchall()
-        name = result[0][0]
-        surname = result[0][1]
-        c_name = name + " " + surname
-        rol = result[0][2]
+            result = db.dbcursor.fetchall()
+            name = result[0][0]
+            surname = result[0][1]
+            c_name = name + " " + surname
+            rol = result[0][2]
+        except:
+            return True
+
         try:
             if rol == "Recepcion":
                 from Ui.Recepcion.a_recep import a2
