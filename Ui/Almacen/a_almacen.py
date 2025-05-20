@@ -20,8 +20,6 @@ class Almacen(QtWidgets.QWidget):
         dir_a = os.path.dirname(os.path.abspath(__file__))
         ui_a = os.path.join(dir_a, "u_almacen.ui")
         loadUi(ui_a, self)
-        # Conectar botones a sus funciones
-        self.botonbuscar.clicked.connect(self.buscar_producto)
         self.barrabusqueda.textChanged.connect(self.buscar_producto)
         self.botonreset.clicked.connect(self.resetear_tabla)
         self.buscareditar.clicked.connect(self.buscar_producto_por_codigo)
@@ -30,17 +28,13 @@ class Almacen(QtWidgets.QWidget):
         self.eliminar.clicked.connect(self.eliminar_producto)
         self.agregar.clicked.connect(self.agregar_producto)
         self.saliralm.clicked.connect(self.salir)
-
-        # Conectar señales para recargar la tabla activa
         self.producto_agregado.connect(self.recargar_tabla_activa)
         self.producto_actualizado.connect(self.recargar_tabla_activa)
         self.producto_eliminado.connect(self.recargar_tabla_activa)
-
         self.cargar_datos_iniciales()
         self.wagregar.hide()
         self.weditar.hide()
         self.weliminar.hide()
-
 
     def cargar_datos_iniciales(self):
         self.cargar_bebidas()
