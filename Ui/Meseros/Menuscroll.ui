@@ -1,0 +1,2102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Form</class>
+ <widget class="QWidget" name="Form">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1091</width>
+    <height>501</height>
+   </rect>
+  </property>
+  <property name="minimumSize">
+   <size>
+    <width>1091</width>
+    <height>501</height>
+   </size>
+  </property>
+  <property name="maximumSize">
+   <size>
+    <width>1091</width>
+    <height>501</height>
+   </size>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <widget class="QPushButton" name="Ordenar">
+   <property name="geometry">
+    <rect>
+     <x>960</x>
+     <y>70</y>
+     <width>93</width>
+     <height>28</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Ordenar</string>
+   </property>
+  </widget>
+  <widget class="QScrollArea" name="scrollArea">
+   <property name="geometry">
+    <rect>
+     <x>130</x>
+     <y>50</y>
+     <width>761</width>
+     <height>431</height>
+    </rect>
+   </property>
+   <property name="widgetResizable">
+    <bool>true</bool>
+   </property>
+   <widget class="QWidget" name="scrollAreaWidgetContents">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>-232</y>
+      <width>738</width>
+      <height>661</height>
+     </rect>
+    </property>
+    <layout class="QGridLayout" name="gridLayout">
+     <item row="22" column="3">
+      <widget class="QLabel" name="ensaladas_3">
+       <property name="minimumSize">
+        <size>
+         <width>191</width>
+         <height>21</height>
+        </size>
+       </property>
+       <property name="maximumSize">
+        <size>
+         <width>191</width>
+         <height>21</height>
+        </size>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">background-color: #f5f5f5;
+border: 2px solid #5d432c;
+border-radius: 10px;
+color: #333333</string>
+       </property>
+       <property name="text">
+        <string>Platanos fritos</string>
+       </property>
+      </widget>
+     </item>
+     <item row="2" column="3">
+      <widget class="QLabel" name="fuerte2">
+       <property name="minimumSize">
+        <size>
+         <width>191</width>
+         <height>21</height>
+        </size>
+       </property>
+       <property name="maximumSize">
+        <size>
+         <width>191</width>
+         <height>21</height>
+        </size>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">background-color: #f5f5f5;
+border: 2px solid #5d432c;
+border-radius: 10px;
+color: #333333</string>
+       </property>
+       <property name="text">
+        <string>Pozole rojo</string>
+       </property>
+      </widget>
+     </item>
+     <item row="5" column="4">
+      <widget class="QLineEdit" name="fuertec_5">
+       <property name="minimumSize">
+        <size>
+         <width>51</width>
+         <height>21</height>
+        </size>
+       </property>
+       <property name="maximumSize">
+        <size>
+         <width>51</width>
+         <height>21</height>
+        </size>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">border: 1px solid #333333;
+border-radius: 10px;
+border: 2px solid #5d432c;</string>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+     </item>
+     <item row="6" column="4">
+      <widget class="QLineEdit" name="fuertec_6">
+       <property name="minimumSize">
+        <size>
+         <width>51</width>
+         <height>21</height>
+        </size>
+       </property>
+       <property name="maximumSize">
+        <size>
+         <width>51</width>
+         <height>21</height>
+        </size>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">border: 1px solid #333333;
+border-radius: 10px;
+border: 2px solid #5d432c;</string>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+     </item>
+     <item row="15" column="0">
+      <widget class="QLabel" name="bebidas1">
+       <property name="styleSheet">
+        <string notr="true">background-color: #f5f5f5;
+border: 2px solid #5d432c;
+border-radius: 10px;
+color: #333333</string>
+       </property>
+       <property name="text">
+        <string>Agua de Horchata</string>
+       </property>
+      </widget>
+     </item>
+     <item row="7" column="0">
+      <widget class="QLabel" name="entrada7">
+       <property name="styleSheet">
+        <string notr="true">background-color: #f5f5f5;
+border: 2px solid #5d432c;
+border-radius: 10px;
+color: #333333</string>
+       </property>
+       <property name="text">
+        <string>Chicharron en salsa verde</string>
+       </property>
+      </widget>
+     </item>
+     <item row="18" column="3">
+      <widget class="QLabel" name="postre_6">
+       <property name="minimumSize">
+        <size>
+         <width>191</width>
+         <height>21</height>
+        </size>
+       </property>
+       <property name="maximumSize">
+        <size>
+         <width>191</width>
+         <height>21</height>
+        </size>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">background-color: #f5f5f5;
+border: 2px solid #5d432c;
+border-radius: 10px;
+color: #333333</string>
+       </property>
+       <property name="text">
+        <string>Buñuelos con miel</string>
+       </property>
+      </widget>
+     </item>
+     <item row="1" column="3">
+      <widget class="QLabel" name="fuerte1">
+       <property name="minimumSize">
+        <size>
+         <width>191</width>
+         <height>21</height>
+        </size>
+       </property>
+       <property name="maximumSize">
+        <size>
+         <width>191</width>
+         <height>21</height>
+        </size>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">background-color: #f5f5f5;
+border: 2px solid #5d432c;
+border-radius: 10px;
+color: #333333</string>
+       </property>
+       <property name="text">
+        <string>Enchiladas verdes o rojas</string>
+       </property>
+      </widget>
+     </item>
+     <item row="2" column="2">
+      <widget class="QLineEdit" name="entradac2">
+       <property name="minimumSize">
+        <size>
+         <width>51</width>
+         <height>21</height>
+        </size>
+       </property>
+       <property name="maximumSize">
+        <size>
+         <width>51</width>
+         <height>21</height>
+        </size>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">border: 1px solid #333333;
+border-radius: 10px;
+border: 2px solid #5d432c;</string>
+       </property>
+      </widget>
+     </item>
+     <item row="4" column="0">
+      <widget class="QLabel" name="entrada4">
+       <property name="minimumSize">
+        <size>
+         <width>191</width>
+         <height>21</height>
+        </size>
+       </property>
+       <property name="maximumSize">
+        <size>
+         <width>191</width>
+         <height>21</height>
+        </size>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">background-color: #f5f5f5;
+border: 2px solid #5d432c;
+border-radius: 10px;
+color: #333333</string>
+       </property>
+       <property name="text">
+        <string>Sopes Surtidos</string>
+       </property>
+      </widget>
+     </item>
+     <item row="21" column="3">
+      <widget class="QLabel" name="ensaladas_2">
+       <property name="minimumSize">
+        <size>
+         <width>191</width>
+         <height>21</height>
+        </size>
+       </property>
+       <property name="maximumSize">
+        <size>
+         <width>191</width>
+         <height>21</height>
+        </size>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">background-color: #f5f5f5;
+border: 2px solid #5d432c;
+border-radius: 10px;
+color: #333333</string>
+       </property>
+       <property name="text">
+        <string>Arroz rojo o blanco</string>
+       </property>
+      </widget>
+     </item>
+     <item row="19" column="0">
+      <widget class="QLabel" name="bebidas5">
+       <property name="minimumSize">
+        <size>
+         <width>191</width>
+         <height>21</height>
+        </size>
+       </property>
+       <property name="maximumSize">
+        <size>
+         <width>191</width>
+         <height>21</height>
+        </size>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">background-color: #f5f5f5;
+border: 2px solid #5d432c;
+border-radius: 10px;
+color: #333333</string>
+       </property>
+       <property name="text">
+        <string>Limonada</string>
+       </property>
+      </widget>
+     </item>
+     <item row="1" column="4">
+      <widget class="QLineEdit" name="fuertec">
+       <property name="minimumSize">
+        <size>
+         <width>51</width>
+         <height>21</height>
+        </size>
+       </property>
+       <property name="maximumSize">
+        <size>
+         <width>51</width>
+         <height>21</height>
+        </size>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">border: 1px solid #333333;
+border-radius: 10px;
+border: 2px solid #5d432c;</string>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+     </item>
+     <item row="5" column="2">
+      <widget class="QLineEdit" name="entradac5">
+       <property name="minimumSize">
+        <size>
+         <width>51</width>
+         <height>21</height>
+        </size>
+       </property>
+       <property name="maximumSize">
+        <size>
+         <width>51</width>
+         <height>21</height>
+        </size>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">border: 1px solid #333333;
+border-radius: 10px;
+border: 2px solid #5d432c;</string>
+       </property>
+      </widget>
+     </item>
+     <item row="6" column="3">
+      <widget class="QLabel" name="fuerte6">
+       <property name="minimumSize">
+        <size>
+         <width>191</width>
+         <height>21</height>
+        </size>
+       </property>
+       <property name="maximumSize">
+        <size>
+         <width>191</width>
+         <height>21</height>
+        </size>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">background-color: #f5f5f5;
+border: 2px solid #5d432c;
+border-radius: 10px;
+color: #333333</string>
+       </property>
+       <property name="text">
+        <string>Tampiqueña de Res</string>
+       </property>
+      </widget>
+     </item>
+     <item row="1" column="2">
+      <widget class="QLineEdit" name="entradac1">
+       <property name="minimumSize">
+        <size>
+         <width>51</width>
+         <height>21</height>
+        </size>
+       </property>
+       <property name="maximumSize">
+        <size>
+         <width>51</width>
+         <height>21</height>
+        </size>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">border: 1px solid #333333;
+border-radius: 10px;
+border: 2px solid #5d432c;</string>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+     </item>
+     <item row="8" column="4">
+      <widget class="QLineEdit" name="fuertec_8">
+       <property name="minimumSize">
+        <size>
+         <width>51</width>
+         <height>21</height>
+        </size>
+       </property>
+       <property name="maximumSize">
+        <size>
+         <width>51</width>
+         <height>21</height>
+        </size>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">border: 1px solid #333333;
+border-radius: 10px;
+border: 2px solid #5d432c;</string>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+     </item>
+     <item row="8" column="0">
+      <widget class="QLabel" name="entrada8">
+       <property name="styleSheet">
+        <string notr="true">background-color: #f5f5f5;
+border: 2px solid #5d432c;
+border-radius: 10px;
+color: #333333</string>
+       </property>
+       <property name="text">
+        <string>Quesadillas de huitlacoche</string>
+       </property>
+      </widget>
+     </item>
+     <item row="2" column="0">
+      <widget class="QLabel" name="entrada2">
+       <property name="minimumSize">
+        <size>
+         <width>191</width>
+         <height>21</height>
+        </size>
+       </property>
+       <property name="maximumSize">
+        <size>
+         <width>191</width>
+         <height>21</height>
+        </size>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">background-color: #f5f5f5;
+border: 2px solid #5d432c;
+border-radius: 10px;
+color: #333333</string>
+       </property>
+       <property name="text">
+        <string>Queso Fundido</string>
+       </property>
+      </widget>
+     </item>
+     <item row="0" column="3">
+      <widget class="QLabel" name="label_17">
+       <property name="font">
+        <font>
+         <pointsize>12</pointsize>
+        </font>
+       </property>
+       <property name="text">
+        <string>𝓕𝓾𝓮𝓻𝓽𝓮</string>
+       </property>
+      </widget>
+     </item>
+     <item row="21" column="0">
+      <widget class="QLabel" name="bebidas7">
+       <property name="styleSheet">
+        <string notr="true">background-color: #f5f5f5;
+border: 2px solid #5d432c;
+border-radius: 10px;
+color: #333333</string>
+       </property>
+       <property name="text">
+        <string>Paloma</string>
+       </property>
+      </widget>
+     </item>
+     <item row="20" column="0">
+      <widget class="QLabel" name="bebidas6">
+       <property name="styleSheet">
+        <string notr="true">background-color: #f5f5f5;
+border: 2px solid #5d432c;
+border-radius: 10px;
+color: #333333</string>
+       </property>
+       <property name="text">
+        <string>Margarita</string>
+       </property>
+      </widget>
+     </item>
+     <item row="16" column="3">
+      <widget class="QLabel" name="postre_4">
+       <property name="minimumSize">
+        <size>
+         <width>191</width>
+         <height>21</height>
+        </size>
+       </property>
+       <property name="maximumSize">
+        <size>
+         <width>191</width>
+         <height>21</height>
+        </size>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">background-color: #f5f5f5;
+border: 2px solid #5d432c;
+border-radius: 10px;
+color: #333333</string>
+       </property>
+       <property name="text">
+        <string>Churros con Cajeta</string>
+       </property>
+      </widget>
+     </item>
+     <item row="8" column="3">
+      <widget class="QLabel" name="fuerte8">
+       <property name="minimumSize">
+        <size>
+         <width>191</width>
+         <height>21</height>
+        </size>
+       </property>
+       <property name="maximumSize">
+        <size>
+         <width>191</width>
+         <height>21</height>
+        </size>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">background-color: #f5f5f5;
+border: 2px solid #5d432c;
+border-radius: 10px;
+color: #333333</string>
+       </property>
+       <property name="text">
+        <string>Tacos de Arrachera</string>
+       </property>
+      </widget>
+     </item>
+     <item row="6" column="2">
+      <widget class="QLineEdit" name="entradac6">
+       <property name="minimumSize">
+        <size>
+         <width>51</width>
+         <height>21</height>
+        </size>
+       </property>
+       <property name="maximumSize">
+        <size>
+         <width>51</width>
+         <height>21</height>
+        </size>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">border: 1px solid #333333;
+border-radius: 10px;
+border: 2px solid #5d432c;</string>
+       </property>
+      </widget>
+     </item>
+     <item row="23" column="3">
+      <widget class="QLabel" name="ensaladas_4">
+       <property name="minimumSize">
+        <size>
+         <width>191</width>
+         <height>21</height>
+        </size>
+       </property>
+       <property name="maximumSize">
+        <size>
+         <width>191</width>
+         <height>21</height>
+        </size>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">background-color: #f5f5f5;
+border: 2px solid #5d432c;
+border-radius: 10px;
+color: #333333</string>
+       </property>
+       <property name="text">
+        <string>Papas Gajo</string>
+       </property>
+      </widget>
+     </item>
+     <item row="13" column="3">
+      <widget class="QLabel" name="postre_2">
+       <property name="minimumSize">
+        <size>
+         <width>191</width>
+         <height>21</height>
+        </size>
+       </property>
+       <property name="maximumSize">
+        <size>
+         <width>191</width>
+         <height>21</height>
+        </size>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">background-color: #f5f5f5;
+border: 2px solid #5d432c;
+border-radius: 10px;
+color: #333333</string>
+       </property>
+       <property name="text">
+        <string>Dulce de Calabaza</string>
+       </property>
+      </widget>
+     </item>
+     <item row="7" column="2">
+      <widget class="QLineEdit" name="entradac7">
+       <property name="minimumSize">
+        <size>
+         <width>51</width>
+         <height>21</height>
+        </size>
+       </property>
+       <property name="maximumSize">
+        <size>
+         <width>51</width>
+         <height>21</height>
+        </size>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">border: 1px solid #333333;
+border-radius: 10px;
+border: 2px solid #5d432c;</string>
+       </property>
+      </widget>
+     </item>
+     <item row="7" column="3">
+      <widget class="QLabel" name="fuerte7">
+       <property name="minimumSize">
+        <size>
+         <width>191</width>
+         <height>21</height>
+        </size>
+       </property>
+       <property name="maximumSize">
+        <size>
+         <width>191</width>
+         <height>21</height>
+        </size>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">background-color: #f5f5f5;
+border: 2px solid #5d432c;
+border-radius: 10px;
+color: #333333</string>
+       </property>
+       <property name="text">
+        <string>Chocinita Pibil</string>
+       </property>
+      </widget>
+     </item>
+     <item row="9" column="0">
+      <widget class="QLabel" name="entrada9">
+       <property name="minimumSize">
+        <size>
+         <width>191</width>
+         <height>21</height>
+        </size>
+       </property>
+       <property name="maximumSize">
+        <size>
+         <width>191</width>
+         <height>21</height>
+        </size>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">background-color: #f5f5f5;
+border: 2px solid #5d432c;
+border-radius: 10px;
+color: #333333</string>
+       </property>
+       <property name="text">
+        <string>Quesadillas de flor de calabaza</string>
+       </property>
+      </widget>
+     </item>
+     <item row="17" column="3">
+      <widget class="QLabel" name="postre_5">
+       <property name="minimumSize">
+        <size>
+         <width>191</width>
+         <height>21</height>
+        </size>
+       </property>
+       <property name="maximumSize">
+        <size>
+         <width>191</width>
+         <height>21</height>
+        </size>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">background-color: #f5f5f5;
+border: 2px solid #5d432c;
+border-radius: 10px;
+color: #333333</string>
+       </property>
+       <property name="text">
+        <string>Nieve Artesanal</string>
+       </property>
+      </widget>
+     </item>
+     <item row="20" column="2">
+      <widget class="QLineEdit" name="bebidasc6">
+       <property name="minimumSize">
+        <size>
+         <width>51</width>
+         <height>21</height>
+        </size>
+       </property>
+       <property name="maximumSize">
+        <size>
+         <width>51</width>
+         <height>21</height>
+        </size>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">border: 1px solid #333333;
+border-radius: 10px;
+border: 2px solid #5d432c;</string>
+       </property>
+      </widget>
+     </item>
+     <item row="18" column="2">
+      <widget class="QLineEdit" name="bebidasc4">
+       <property name="minimumSize">
+        <size>
+         <width>51</width>
+         <height>21</height>
+        </size>
+       </property>
+       <property name="maximumSize">
+        <size>
+         <width>51</width>
+         <height>21</height>
+        </size>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">border: 1px solid #333333;
+border-radius: 10px;
+border: 2px solid #5d432c;</string>
+       </property>
+      </widget>
+     </item>
+     <item row="10" column="0">
+      <widget class="QLabel" name="entrada10">
+       <property name="minimumSize">
+        <size>
+         <width>191</width>
+         <height>21</height>
+        </size>
+       </property>
+       <property name="maximumSize">
+        <size>
+         <width>191</width>
+         <height>21</height>
+        </size>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">background-color: #f5f5f5;
+border: 2px solid #5d432c;
+border-radius: 10px;
+color: #333333</string>
+       </property>
+       <property name="text">
+        <string>Tlacoyos de nopales</string>
+       </property>
+      </widget>
+     </item>
+     <item row="17" column="0">
+      <widget class="QLabel" name="bebidas3">
+       <property name="styleSheet">
+        <string notr="true">background-color: #f5f5f5;
+border: 2px solid #5d432c;
+border-radius: 10px;
+color: #333333</string>
+       </property>
+       <property name="text">
+        <string>Agua de Tamarindo</string>
+       </property>
+      </widget>
+     </item>
+     <item row="18" column="0">
+      <widget class="QLabel" name="bebidas4">
+       <property name="styleSheet">
+        <string notr="true">background-color: #f5f5f5;
+border: 2px solid #5d432c;
+border-radius: 10px;
+color: #333333</string>
+       </property>
+       <property name="text">
+        <string>Refresco Embotellado</string>
+       </property>
+      </widget>
+     </item>
+     <item row="5" column="3">
+      <widget class="QLabel" name="fuerte5">
+       <property name="minimumSize">
+        <size>
+         <width>191</width>
+         <height>21</height>
+        </size>
+       </property>
+       <property name="maximumSize">
+        <size>
+         <width>191</width>
+         <height>21</height>
+        </size>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">background-color: #f5f5f5;
+border: 2px solid #5d432c;
+border-radius: 10px;
+color: #333333</string>
+       </property>
+       <property name="text">
+        <string>Mole Poblano</string>
+       </property>
+      </widget>
+     </item>
+     <item row="17" column="2">
+      <widget class="QLineEdit" name="bebidasc3">
+       <property name="minimumSize">
+        <size>
+         <width>51</width>
+         <height>21</height>
+        </size>
+       </property>
+       <property name="maximumSize">
+        <size>
+         <width>51</width>
+         <height>21</height>
+        </size>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">border: 1px solid #333333;
+border-radius: 10px;
+border: 2px solid #5d432c;</string>
+       </property>
+      </widget>
+     </item>
+     <item row="8" column="2">
+      <widget class="QLineEdit" name="entradac8">
+       <property name="minimumSize">
+        <size>
+         <width>51</width>
+         <height>21</height>
+        </size>
+       </property>
+       <property name="maximumSize">
+        <size>
+         <width>51</width>
+         <height>21</height>
+        </size>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">border: 1px solid #333333;
+border-radius: 10px;
+border: 2px solid #5d432c;</string>
+       </property>
+      </widget>
+     </item>
+     <item row="20" column="3">
+      <widget class="QLabel" name="ensaladas">
+       <property name="minimumSize">
+        <size>
+         <width>191</width>
+         <height>21</height>
+        </size>
+       </property>
+       <property name="maximumSize">
+        <size>
+         <width>191</width>
+         <height>21</height>
+        </size>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">background-color: #f5f5f5;
+border: 2px solid #5d432c;
+border-radius: 10px;
+color: #333333</string>
+       </property>
+       <property name="text">
+        <string>Ensalada de Nopales</string>
+       </property>
+      </widget>
+     </item>
+     <item row="3" column="4">
+      <widget class="QLineEdit" name="fuertec_3">
+       <property name="minimumSize">
+        <size>
+         <width>51</width>
+         <height>21</height>
+        </size>
+       </property>
+       <property name="maximumSize">
+        <size>
+         <width>51</width>
+         <height>21</height>
+        </size>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">border: 1px solid #333333;
+border-radius: 10px;
+border: 2px solid #5d432c;</string>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+     </item>
+     <item row="21" column="2">
+      <widget class="QLineEdit" name="bebidasc7">
+       <property name="minimumSize">
+        <size>
+         <width>51</width>
+         <height>21</height>
+        </size>
+       </property>
+       <property name="maximumSize">
+        <size>
+         <width>51</width>
+         <height>21</height>
+        </size>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">border: 1px solid #333333;
+border-radius: 10px;
+border: 2px solid #5d432c;</string>
+       </property>
+      </widget>
+     </item>
+     <item row="6" column="0">
+      <widget class="QLabel" name="entrada6">
+       <property name="styleSheet">
+        <string notr="true">background-color: #f5f5f5;
+border: 2px solid #5d432c;
+border-radius: 10px;
+color: #333333</string>
+       </property>
+       <property name="text">
+        <string>Chalupas poblanas</string>
+       </property>
+      </widget>
+     </item>
+     <item row="0" column="0">
+      <widget class="QLabel" name="label_3">
+       <property name="font">
+        <font>
+         <pointsize>12</pointsize>
+        </font>
+       </property>
+       <property name="text">
+        <string>𝓔𝓷𝓽𝓻𝓪𝓭𝓪𝓼</string>
+       </property>
+      </widget>
+     </item>
+     <item row="3" column="2">
+      <widget class="QLineEdit" name="entradac3">
+       <property name="minimumSize">
+        <size>
+         <width>51</width>
+         <height>21</height>
+        </size>
+       </property>
+       <property name="maximumSize">
+        <size>
+         <width>51</width>
+         <height>21</height>
+        </size>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">border: 1px solid #333333;
+border-radius: 10px;
+border: 2px solid #5d432c;</string>
+       </property>
+      </widget>
+     </item>
+     <item row="23" column="2">
+      <widget class="QLineEdit" name="bebidasc9">
+       <property name="minimumSize">
+        <size>
+         <width>51</width>
+         <height>21</height>
+        </size>
+       </property>
+       <property name="maximumSize">
+        <size>
+         <width>51</width>
+         <height>21</height>
+        </size>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">border: 1px solid #333333;
+border-radius: 10px;
+border: 2px solid #5d432c;</string>
+       </property>
+      </widget>
+     </item>
+     <item row="3" column="3">
+      <widget class="QLabel" name="fuerte3">
+       <property name="minimumSize">
+        <size>
+         <width>191</width>
+         <height>21</height>
+        </size>
+       </property>
+       <property name="maximumSize">
+        <size>
+         <width>191</width>
+         <height>21</height>
+        </size>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">background-color: #f5f5f5;
+border: 2px solid #5d432c;
+border-radius: 10px;
+color: #333333</string>
+       </property>
+       <property name="text">
+        <string>Tacos al pastor</string>
+       </property>
+      </widget>
+     </item>
+     <item row="19" column="2">
+      <widget class="QLineEdit" name="bebidasc5">
+       <property name="minimumSize">
+        <size>
+         <width>51</width>
+         <height>21</height>
+        </size>
+       </property>
+       <property name="maximumSize">
+        <size>
+         <width>51</width>
+         <height>21</height>
+        </size>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">border: 1px solid #333333;
+border-radius: 10px;
+border: 2px solid #5d432c;</string>
+       </property>
+      </widget>
+     </item>
+     <item row="3" column="0">
+      <widget class="QLabel" name="entrada3">
+       <property name="minimumSize">
+        <size>
+         <width>191</width>
+         <height>21</height>
+        </size>
+       </property>
+       <property name="maximumSize">
+        <size>
+         <width>191</width>
+         <height>21</height>
+        </size>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">background-color: #f5f5f5;
+border: 2px solid #5d432c;
+border-radius: 10px;
+color: #333333</string>
+       </property>
+       <property name="text">
+        <string>Esquites</string>
+       </property>
+      </widget>
+     </item>
+     <item row="1" column="0">
+      <widget class="QLabel" name="entrada1">
+       <property name="minimumSize">
+        <size>
+         <width>191</width>
+         <height>21</height>
+        </size>
+       </property>
+       <property name="maximumSize">
+        <size>
+         <width>191</width>
+         <height>21</height>
+        </size>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">background-color: #f5f5f5;
+border: 2px solid #5d432c;
+border-radius: 10px;
+color: #333333</string>
+       </property>
+       <property name="text">
+        <string>Guacamole con Totopos</string>
+       </property>
+      </widget>
+     </item>
+     <item row="24" column="3">
+      <widget class="QLabel" name="ensaladas_5">
+       <property name="minimumSize">
+        <size>
+         <width>191</width>
+         <height>21</height>
+        </size>
+       </property>
+       <property name="maximumSize">
+        <size>
+         <width>191</width>
+         <height>21</height>
+        </size>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">background-color: #f5f5f5;
+border: 2px solid #5d432c;
+border-radius: 10px;
+color: #333333</string>
+       </property>
+       <property name="text">
+        <string>Arroz negro y tinta de calamar</string>
+       </property>
+      </widget>
+     </item>
+     <item row="10" column="2">
+      <widget class="QLineEdit" name="entradac10">
+       <property name="minimumSize">
+        <size>
+         <width>51</width>
+         <height>21</height>
+        </size>
+       </property>
+       <property name="maximumSize">
+        <size>
+         <width>51</width>
+         <height>21</height>
+        </size>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">border: 1px solid #333333;
+border-radius: 10px;
+border: 2px solid #5d432c;</string>
+       </property>
+      </widget>
+     </item>
+     <item row="19" column="3">
+      <widget class="QLabel" name="label_18">
+       <property name="font">
+        <font>
+         <pointsize>12</pointsize>
+        </font>
+       </property>
+       <property name="text">
+        <string>𝓔𝓷𝓼𝓪𝓵𝓪𝓭𝓪𝓼</string>
+       </property>
+      </widget>
+     </item>
+     <item row="12" column="3">
+      <widget class="QLabel" name="postre">
+       <property name="minimumSize">
+        <size>
+         <width>191</width>
+         <height>21</height>
+        </size>
+       </property>
+       <property name="maximumSize">
+        <size>
+         <width>191</width>
+         <height>21</height>
+        </size>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">background-color: #f5f5f5;
+border: 2px solid #5d432c;
+border-radius: 10px;
+color: #333333</string>
+       </property>
+       <property name="text">
+        <string>Flan</string>
+       </property>
+      </widget>
+     </item>
+     <item row="24" column="0">
+      <widget class="QLabel" name="bebidas10">
+       <property name="styleSheet">
+        <string notr="true">background-color: #f5f5f5;
+border: 2px solid #5d432c;
+border-radius: 10px;
+color: #333333</string>
+       </property>
+       <property name="text">
+        <string>Charro Negro</string>
+       </property>
+      </widget>
+     </item>
+     <item row="16" column="2">
+      <widget class="QLineEdit" name="bebidasc2">
+       <property name="minimumSize">
+        <size>
+         <width>51</width>
+         <height>21</height>
+        </size>
+       </property>
+       <property name="maximumSize">
+        <size>
+         <width>51</width>
+         <height>21</height>
+        </size>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">border: 1px solid #333333;
+border-radius: 10px;
+border: 2px solid #5d432c;</string>
+       </property>
+      </widget>
+     </item>
+     <item row="23" column="0">
+      <widget class="QLabel" name="bebidas9">
+       <property name="styleSheet">
+        <string notr="true">background-color: #f5f5f5;
+border: 2px solid #5d432c;
+border-radius: 10px;
+color: #333333</string>
+       </property>
+       <property name="text">
+        <string>Caballito de Mezcal</string>
+       </property>
+      </widget>
+     </item>
+     <item row="7" column="4">
+      <widget class="QLineEdit" name="fuertec_7">
+       <property name="minimumSize">
+        <size>
+         <width>51</width>
+         <height>21</height>
+        </size>
+       </property>
+       <property name="maximumSize">
+        <size>
+         <width>51</width>
+         <height>21</height>
+        </size>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">border: 1px solid #333333;
+border-radius: 10px;
+border: 2px solid #5d432c;</string>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+     </item>
+     <item row="9" column="2">
+      <widget class="QLineEdit" name="entradac9">
+       <property name="minimumSize">
+        <size>
+         <width>51</width>
+         <height>21</height>
+        </size>
+       </property>
+       <property name="maximumSize">
+        <size>
+         <width>51</width>
+         <height>21</height>
+        </size>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">border: 1px solid #333333;
+border-radius: 10px;
+border: 2px solid #5d432c;</string>
+       </property>
+      </widget>
+     </item>
+     <item row="4" column="3">
+      <widget class="QLabel" name="fuerte4">
+       <property name="minimumSize">
+        <size>
+         <width>191</width>
+         <height>21</height>
+        </size>
+       </property>
+       <property name="maximumSize">
+        <size>
+         <width>191</width>
+         <height>21</height>
+        </size>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">background-color: #f5f5f5;
+border: 2px solid #5d432c;
+border-radius: 10px;
+color: #333333</string>
+       </property>
+       <property name="text">
+        <string>Chiles en Nogada</string>
+       </property>
+      </widget>
+     </item>
+     <item row="22" column="2">
+      <widget class="QLineEdit" name="bebidasc8">
+       <property name="minimumSize">
+        <size>
+         <width>51</width>
+         <height>21</height>
+        </size>
+       </property>
+       <property name="maximumSize">
+        <size>
+         <width>51</width>
+         <height>21</height>
+        </size>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">border: 1px solid #333333;
+border-radius: 10px;
+border: 2px solid #5d432c;</string>
+       </property>
+      </widget>
+     </item>
+     <item row="13" column="0">
+      <widget class="QLabel" name="label_12">
+       <property name="font">
+        <font>
+         <pointsize>12</pointsize>
+        </font>
+       </property>
+       <property name="text">
+        <string>𝓑𝓮𝓫𝓲𝓭𝓪𝓼</string>
+       </property>
+      </widget>
+     </item>
+     <item row="4" column="4">
+      <widget class="QLineEdit" name="fuertec_4">
+       <property name="minimumSize">
+        <size>
+         <width>51</width>
+         <height>21</height>
+        </size>
+       </property>
+       <property name="maximumSize">
+        <size>
+         <width>51</width>
+         <height>21</height>
+        </size>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">border: 1px solid #333333;
+border-radius: 10px;
+border: 2px solid #5d432c;</string>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+     </item>
+     <item row="15" column="2">
+      <widget class="QLineEdit" name="bebidasc1">
+       <property name="minimumSize">
+        <size>
+         <width>51</width>
+         <height>21</height>
+        </size>
+       </property>
+       <property name="maximumSize">
+        <size>
+         <width>51</width>
+         <height>21</height>
+        </size>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">border: 1px solid #333333;
+border-radius: 10px;
+border: 2px solid #5d432c;</string>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+     </item>
+     <item row="5" column="0">
+      <widget class="QLabel" name="entrada5">
+       <property name="minimumSize">
+        <size>
+         <width>191</width>
+         <height>21</height>
+        </size>
+       </property>
+       <property name="maximumSize">
+        <size>
+         <width>191</width>
+         <height>21</height>
+        </size>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">background-color: #f5f5f5;
+border: 2px solid #5d432c;
+border-radius: 10px;
+color: #333333</string>
+       </property>
+       <property name="text">
+        <string>Tacos dorados con papa</string>
+       </property>
+      </widget>
+     </item>
+     <item row="22" column="0">
+      <widget class="QLabel" name="bebidas8">
+       <property name="styleSheet">
+        <string notr="true">background-color: #f5f5f5;
+border: 2px solid #5d432c;
+border-radius: 10px;
+color: #333333</string>
+       </property>
+       <property name="text">
+        <string>Michelada</string>
+       </property>
+      </widget>
+     </item>
+     <item row="16" column="0">
+      <widget class="QLabel" name="bebidas2">
+       <property name="styleSheet">
+        <string notr="true">background-color: #f5f5f5;
+border: 2px solid #5d432c;
+border-radius: 10px;
+color: #333333</string>
+       </property>
+       <property name="text">
+        <string>Agua de Jamaica</string>
+       </property>
+      </widget>
+     </item>
+     <item row="4" column="2">
+      <widget class="QLineEdit" name="entradac4">
+       <property name="minimumSize">
+        <size>
+         <width>51</width>
+         <height>21</height>
+        </size>
+       </property>
+       <property name="maximumSize">
+        <size>
+         <width>51</width>
+         <height>21</height>
+        </size>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">border: 1px solid #333333;
+border-radius: 10px;
+border: 2px solid #5d432c;</string>
+       </property>
+      </widget>
+     </item>
+     <item row="24" column="2">
+      <widget class="QLineEdit" name="bebidasc10">
+       <property name="minimumSize">
+        <size>
+         <width>51</width>
+         <height>21</height>
+        </size>
+       </property>
+       <property name="maximumSize">
+        <size>
+         <width>51</width>
+         <height>21</height>
+        </size>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">border: 1px solid #333333;
+border-radius: 10px;
+border: 2px solid #5d432c;</string>
+       </property>
+      </widget>
+     </item>
+     <item row="15" column="3">
+      <widget class="QLabel" name="postre_3">
+       <property name="minimumSize">
+        <size>
+         <width>191</width>
+         <height>21</height>
+        </size>
+       </property>
+       <property name="maximumSize">
+        <size>
+         <width>191</width>
+         <height>21</height>
+        </size>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">background-color: #f5f5f5;
+border: 2px solid #5d432c;
+border-radius: 10px;
+color: #333333</string>
+       </property>
+       <property name="text">
+        <string>Pan de Elote</string>
+       </property>
+      </widget>
+     </item>
+     <item row="2" column="4">
+      <widget class="QLineEdit" name="fuertec_2">
+       <property name="minimumSize">
+        <size>
+         <width>51</width>
+         <height>21</height>
+        </size>
+       </property>
+       <property name="maximumSize">
+        <size>
+         <width>51</width>
+         <height>21</height>
+        </size>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">border: 1px solid #333333;
+border-radius: 10px;
+border: 2px solid #5d432c;</string>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+     </item>
+     <item row="10" column="3">
+      <widget class="QLabel" name="label_16">
+       <property name="font">
+        <font>
+         <pointsize>12</pointsize>
+        </font>
+       </property>
+       <property name="text">
+        <string>𝓹𝓸𝓼𝓽𝓻𝓮𝓼</string>
+       </property>
+      </widget>
+     </item>
+     <item row="12" column="4">
+      <widget class="QLineEdit" name="postrec">
+       <property name="minimumSize">
+        <size>
+         <width>51</width>
+         <height>21</height>
+        </size>
+       </property>
+       <property name="maximumSize">
+        <size>
+         <width>51</width>
+         <height>21</height>
+        </size>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">border: 1px solid #333333;
+border-radius: 10px;
+border: 2px solid #5d432c;</string>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+     </item>
+     <item row="13" column="4">
+      <widget class="QLineEdit" name="postrec_2">
+       <property name="minimumSize">
+        <size>
+         <width>51</width>
+         <height>21</height>
+        </size>
+       </property>
+       <property name="maximumSize">
+        <size>
+         <width>51</width>
+         <height>21</height>
+        </size>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">border: 1px solid #333333;
+border-radius: 10px;
+border: 2px solid #5d432c;</string>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+     </item>
+     <item row="15" column="4">
+      <widget class="QLineEdit" name="postrec_3">
+       <property name="minimumSize">
+        <size>
+         <width>51</width>
+         <height>21</height>
+        </size>
+       </property>
+       <property name="maximumSize">
+        <size>
+         <width>51</width>
+         <height>21</height>
+        </size>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">border: 1px solid #333333;
+border-radius: 10px;
+border: 2px solid #5d432c;</string>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+     </item>
+     <item row="16" column="4">
+      <widget class="QLineEdit" name="postrec_4">
+       <property name="minimumSize">
+        <size>
+         <width>51</width>
+         <height>21</height>
+        </size>
+       </property>
+       <property name="maximumSize">
+        <size>
+         <width>51</width>
+         <height>21</height>
+        </size>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">border: 1px solid #333333;
+border-radius: 10px;
+border: 2px solid #5d432c;</string>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+     </item>
+     <item row="17" column="4">
+      <widget class="QLineEdit" name="postrec_5">
+       <property name="minimumSize">
+        <size>
+         <width>51</width>
+         <height>21</height>
+        </size>
+       </property>
+       <property name="maximumSize">
+        <size>
+         <width>51</width>
+         <height>21</height>
+        </size>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">border: 1px solid #333333;
+border-radius: 10px;
+border: 2px solid #5d432c;</string>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+     </item>
+     <item row="18" column="4">
+      <widget class="QLineEdit" name="postrec_6">
+       <property name="minimumSize">
+        <size>
+         <width>51</width>
+         <height>21</height>
+        </size>
+       </property>
+       <property name="maximumSize">
+        <size>
+         <width>51</width>
+         <height>21</height>
+        </size>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">border: 1px solid #333333;
+border-radius: 10px;
+border: 2px solid #5d432c;</string>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+     </item>
+     <item row="20" column="4">
+      <widget class="QLineEdit" name="ensaladac">
+       <property name="minimumSize">
+        <size>
+         <width>51</width>
+         <height>21</height>
+        </size>
+       </property>
+       <property name="maximumSize">
+        <size>
+         <width>51</width>
+         <height>21</height>
+        </size>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">border: 1px solid #333333;
+border-radius: 10px;
+border: 2px solid #5d432c;</string>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+     </item>
+     <item row="21" column="4">
+      <widget class="QLineEdit" name="ensaladac_2">
+       <property name="minimumSize">
+        <size>
+         <width>51</width>
+         <height>21</height>
+        </size>
+       </property>
+       <property name="maximumSize">
+        <size>
+         <width>51</width>
+         <height>21</height>
+        </size>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">border: 1px solid #333333;
+border-radius: 10px;
+border: 2px solid #5d432c;</string>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+     </item>
+     <item row="22" column="4">
+      <widget class="QLineEdit" name="ensaladac_3">
+       <property name="minimumSize">
+        <size>
+         <width>51</width>
+         <height>21</height>
+        </size>
+       </property>
+       <property name="maximumSize">
+        <size>
+         <width>51</width>
+         <height>21</height>
+        </size>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">border: 1px solid #333333;
+border-radius: 10px;
+border: 2px solid #5d432c;</string>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+     </item>
+     <item row="23" column="4">
+      <widget class="QLineEdit" name="ensaladac_4">
+       <property name="minimumSize">
+        <size>
+         <width>51</width>
+         <height>21</height>
+        </size>
+       </property>
+       <property name="maximumSize">
+        <size>
+         <width>51</width>
+         <height>21</height>
+        </size>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">border: 1px solid #333333;
+border-radius: 10px;
+border: 2px solid #5d432c;</string>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+     </item>
+     <item row="24" column="4">
+      <widget class="QLineEdit" name="ensaladac_5">
+       <property name="minimumSize">
+        <size>
+         <width>51</width>
+         <height>21</height>
+        </size>
+       </property>
+       <property name="maximumSize">
+        <size>
+         <width>51</width>
+         <height>21</height>
+        </size>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">border: 1px solid #333333;
+border-radius: 10px;
+border: 2px solid #5d432c;</string>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </widget>
+  </widget>
+  <widget class="QComboBox" name="comboBox">
+   <property name="geometry">
+    <rect>
+     <x>950</x>
+     <y>40</y>
+     <width>101</width>
+     <height>22</height>
+    </rect>
+   </property>
+   <item>
+    <property name="text">
+     <string>MESA 1</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>MESA 2</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>MESA 3</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>MESA 4</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>MESA 5</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>MESA 6</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>MESA 7</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>MESA 8</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>MESA 9</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>MESA 10</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>MESA 11</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>MESA 12</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>MESA KODE</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>MESA 14</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>MESA 15</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>MESA 16</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>MESA 17</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>MESA 18</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>MESA 19</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>MESA 20</string>
+    </property>
+   </item>
+  </widget>
+  <widget class="QPushButton" name="pushButton_2">
+   <property name="geometry">
+    <rect>
+     <x>960</x>
+     <y>110</y>
+     <width>93</width>
+     <height>28</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Editar</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>460</y>
+     <width>93</width>
+     <height>28</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Salir</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="encargado_name">
+   <property name="geometry">
+    <rect>
+     <x>230</x>
+     <y>10</y>
+     <width>291</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="minimumSize">
+    <size>
+     <width>291</width>
+     <height>31</height>
+    </size>
+   </property>
+   <property name="maximumSize">
+    <size>
+     <width>291</width>
+     <height>31</height>
+    </size>
+   </property>
+   <property name="font">
+    <font>
+     <family>Segoe UI</family>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: #f5f5f5;
+border-left: 2px solid #5d432c;
+border-top: 2px solid #5d432c;
+border-bottom: 2px solid #5d432c;
+border-right: 2px solid #5d432c;
+
+border-top-right-radius: 10px;
+border-bottom-right-radius: 10px;
+
+color: #333333</string>
+   </property>
+   <property name="text">
+    <string>nombre empleado</string>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignCenter</set>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_2">
+   <property name="geometry">
+    <rect>
+     <x>130</x>
+     <y>10</y>
+     <width>101</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="minimumSize">
+    <size>
+     <width>101</width>
+     <height>31</height>
+    </size>
+   </property>
+   <property name="font">
+    <font>
+     <family>Segoe UI</family>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: #f5f5f5;
+border-left: 2px solid #5d432c;
+border-top: 2px solid #5d432c;
+border-bottom: 2px solid #5d432c;
+border-right: 0;
+
+border-top-left-radius: 10px;
+border-bottom-left-radius: 10px;
+
+color: #333333;</string>
+   </property>
+   <property name="text">
+    <string>Encargado:</string>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignCenter</set>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>30</x>
+     <y>10</y>
+     <width>71</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="minimumSize">
+    <size>
+     <width>71</width>
+     <height>31</height>
+    </size>
+   </property>
+   <property name="maximumSize">
+    <size>
+     <width>71</width>
+     <height>31</height>
+    </size>
+   </property>
+   <property name="font">
+    <font>
+     <family>Segoe UI</family>
+     <pointsize>11</pointsize>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: #f5f5f5;
+border: 2px solid #5d432c;
+border-radius: 10px;
+color: #333333</string>
+   </property>
+   <property name="text">
+    <string>Menu</string>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignCenter</set>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
