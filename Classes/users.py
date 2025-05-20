@@ -26,6 +26,5 @@
                 from Ui.Cocina.a_cocina import a4
                 a4(db, widget)
         except Exception as e:
-            print(e)
             return True
         
